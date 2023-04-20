@@ -1,0 +1,36 @@
+.footer-container{
+    position: relative;
+    bottom: 0;
+
+}
+
+.footer-btn{
+    background-color: #37475A;
+    height: 50px;
+    width: 100%;
+}
+
+.footer-btn button{
+    width: 100%;
+    background-color: #37475A;
+    height: 100%;
+}
+
+.footer-btn button:hover{
+    display: none;
+    background-color:#37475a00 ;
+}
+
+.footer-links{
+    background-color: #1f2935;
+    
+    display: flex;
+    justify-content: center;
+    gap:10rem;
+    height:300px;
+}
+
+.footer-links div{
+    color: white;
+    padding-top: 30px;
+}

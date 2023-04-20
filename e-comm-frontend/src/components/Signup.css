@@ -1,0 +1,60 @@
+.signup-container{
+    height: 500px;
+    width: 500px;
+    border:1px solid rgba(0, 0, 0, 0.265);
+    margin-left: 450px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    box-shadow: 10px 10px 8px #888888;
+    
+}
+
+
+.form-elements{
+    margin-bottom: 10px;
+    display: flex;
+    gap:1rem;
+    width: 100%;
+}
+
+
+
+.image-upload{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-elements input{
+    height: 30px;
+    width:250px;
+    border-radius: 2px;
+}
+
+.form-elements label{
+    width: 100px;
+}
+
+#signup-btn{
+    width: 100%;
+    margin-top: 25px;
+    height:40px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 0, 0.535);
+}
+
+#signup-btn:hover{
+    background-color: rgba(255, 255, 0, 0.711); 
+}
+
+#profile-pic-icon{
+    height: 80px;
+    
+    width: 100px;
+    background-image: url('https://www.freeiconspng.com/thumbs/profile-icon-png/am-a-19-year-old-multimedia-artist-student-from-manila--21.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+}

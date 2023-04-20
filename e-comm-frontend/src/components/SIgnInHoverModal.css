@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+
+.hover-modal-container{
+    width: 400px;
+    height: 300px;
+    position: fixed;
+    top: 0.01px;
+    right: 200px;
+    transform: translateY(-100%);
+    z-index: 5;
+    background-color: white;
+    border-radius: 5px;
+    border:2px solid yellow;
+}
+
+.hover-modal-open{
+    transform: translateY(17%) 
+}
+
+.signin-option{
+    width: 90%;
+    height: 25%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.321);
+    margin-left:20px;
+    
+    box-shadow: 2px black;
+}
+
+.signin-option p{
+    margin-left:75px;
+}
+
+#hover-modal-login-btn{
+    width: 60%;
+    height: 40px;
+    background-color: rgba(255, 255, 0, 0.638);
+    border-radius: 5px;
+    margin: 20px 0 0 65px;
+    text-align: center;
+}
+
+.signin-option span{
+    margin-left: 4px;
+}
+
+.signin-option span:hover{
+    background-color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#hover-modal-login-btn:hover{
+    background-color: rgba(255, 255, 0, 0.827);
+}

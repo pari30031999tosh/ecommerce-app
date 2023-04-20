@@ -1,0 +1,68 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-left:20px;
+    margin-bottom: 80px;
+    align-items: center;
+    gap:2rem;
+    
+}
+
+.signin-screen{
+    border: 1px solid rgba(0, 0, 0, 0.352);
+    padding:10px;
+    border-radius: 5px;
+}
+
+.login p {
+    width: 300px;
+}
+
+#username-input{
+    width: 300px;
+    height:30px;
+    border-radius: 4px;
+}
+
+#password-input{
+    width: 300px;
+    height:30px;
+    border-radius: 4px;
+
+}
+
+#login-btn{
+    width: 300px;
+    height:30px;
+    background-color: rgba(205, 205, 18, 0.859);
+    border-radius: 4px;
+}
+
+#signup-btn-on-login{
+    width: 300px;
+    height:30px;
+    background-color: rgba(0, 255, 255, 0.18);
+    border-radius: 4px; 
+    width: 335px;
+}
+
+#login-btn:hover{
+    background-color: yellow;
+}
+
+#username{
+    display: flex;
+    flex-direction: column;
+    gap:0.6rem;
+    margin-bottom: 5px;
+    width: 300px;
+    
+}
+
+#password{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    margin-bottom: 5px;
+}

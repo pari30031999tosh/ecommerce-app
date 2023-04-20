@@ -1,0 +1,12 @@
+.navbar {
+    background-color: #131921;
+    height: 60px;
+    display: flex;
+    position: relative;
+}
+
+.nav-middle{
+    display: flex;
+    justify-content: space-around;
+}
+

@@ -1,0 +1,12 @@
+.product-card-container{
+    display: flex;
+    padding: 10px 0px;
+    flex-wrap: wrap;
+    gap: 2rem;
+    background-color: rgba(214, 214, 23, 0.563);
+    margin:0 27px 0 46px;
+    z-index: 2;
+    position: relative;
+    bottom:500px;
+    justify-content: center;
+}

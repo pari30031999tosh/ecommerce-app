@@ -1,0 +1,29 @@
+.cart-container{
+    margin-top: 20px;
+    display: flex;
+    gap:1rem;
+    
+    
+    justify-content: center;
+   
+}
+
+.cart-billing{
+    box-sizing: border-box;
+    width: 30%;
+    margin-right: 15px;
+    border-radius: 5px;
+    border-left: 2px solid rgba(0, 0, 0, 0.324) ;
+    background-color: white;
+}
+
+.cart-items{
+    padding-left: 20px;
+    box-sizing: border-box;
+    width: 70%;
+    margin-right: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap:5rem;
+}

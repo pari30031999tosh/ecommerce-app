@@ -1,0 +1,40 @@
+.product-card{
+    width: 250px;
+    height:336px;
+    background-color: white;
+    padding: 5px;
+    border: 2px solid black;
+    overflow: scroll;   
+    
+}
+
+.product-card div{
+    display: flex;
+    gap:2rem;
+    border-top: 2px solid rgba(0, 0, 0, 0.219);
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.product-card div button{
+    background-color: yellow;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.product-card div button:hover{
+    transform: scale(1.04);
+    transition: all 1s ease;
+}
+
+.product-card h4{
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+}
+
+.product-card:hover{
+    border: 1px solid black;
+    transform: scale(1.04);
+    transition: all 1s ease;
+}

@@ -1,0 +1,45 @@
+.menubar{
+    background-color: #232f3e;
+    height: 40px;
+    display:flex;
+    align-items: center;
+    gap: 1rem;
+    color: white;
+    padding-left:10px;
+}
+
+#menu:hover {
+    border: 1px solid white;
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+#best-seller:hover {
+    border: 1px solid white;
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+#mobile:hover {
+    border: 1px solid white;
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+#deal:hover {
+    border: 1px solid white;
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+#electronics:hover {
+    border: 1px solid white;
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+#prime:hover {
+    border: 1px solid white;
+    transform: scale(1.04);
+    cursor: pointer;
+}
