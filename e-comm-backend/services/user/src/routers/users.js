@@ -7,6 +7,6 @@ const usercontroller = require('../controllers/userController.js')
 
 routes.post("/loginuser", usercontroller.loginUser)
 routes.post("/signupuser", usercontroller.signupUser)
-routes.get("/fakeroutes",(req, res)=> res.send("response send"))
+routes.post("/logoutUser",usercontroller.logoutUser)
 
 module.exports = routes;

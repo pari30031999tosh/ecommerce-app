@@ -9,7 +9,7 @@ const sequelize = new Sequelize('users', 'root', 'root', {
 
 sequelize.authenticate()
 .then(()=>{
-    console.log("atabase is connected=======================")
+    console.log("database is connected=======================")
 })
 .catch(err=>{
     console.log("error conecting to database,", err)
@@ -29,7 +29,7 @@ db.Sequelize = Sequelize;
 
 
 
-db.sequelize.sync({force: true})
+db.sequelize.sync({ alter: true })
 .then(()=> console.log("database synced"))
 .catch(err => console.log("error synscing to db", err))
 
@@ -37,7 +37,8 @@ db.sequelize.sync({force: true})
 
 
 
-db.users  = require('./users')(sequelize, DataTypes);
+db.Users  = require('./Users')(sequelize, DataTypes);
+db.Sessions = require('./Sessions')(sequelize, DataTypes);
 
 
 module.exports = db;

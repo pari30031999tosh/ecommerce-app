@@ -5,22 +5,14 @@ const sequelize = new Sequelize('sqlite::memory:');
 
 module.exports = (sequelize, DataTypes) =>{
 
-    const Users = sequelize.define('users', {
+    const Sessions = sequelize.define('Sessions', {
   
-      firstname: {
+      sessionId: {
         type: DataTypes.STRING,
         
       },
-      
-      lastname: {
-        type: DataTypes.STRING
-        // allowNull defaults to true
-      },
       email: {
         type: DataTypes.STRING,
-      },
-      password: {
-        type: DataTypes.STRING
       },
       createdAt: {
         type: Sequelize.DATE,
@@ -31,12 +23,10 @@ module.exports = (sequelize, DataTypes) =>{
         defaultValue: Sequelize.NOW,
       }
     }, {
-      // Other model options go here
         freezeTableName: true
+      });
 
-    });
-
-    return Users;
+    return Sessions;
 } 
 
 
